@@ -1,0 +1,196 @@
+body{
+    background-image: url(gradientgreen.jpg);
+    background-size: cover;
+}
+
+.navbar-brand{
+    font-weight: 600;
+    font-size: 18px;
+}
+.navbar-nav{
+    margin-left: 250px;
+}
+.nav-link{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: end;
+    
+}
+
+nav li.active{
+    background-color: rgba(33, 80, 6, 0.282);
+    border-radius: 5px;
+}
+
+.login{
+    margin-left: 230px;
+    border-radius: 40px;
+    width: 110px;
+    height: 50px;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: azure;
+    background-color: rgba(0, 255, 157, 0.358);
+    font-weight: 1000;
+    font-family: 'Alegreya Sans SC';
+    border-top-color: white;
+    border-left-color: white;
+    transition: transform .2s;
+  }
+  
+  .signup{
+    margin-left: 40px;
+    border-radius: 40px;
+    border-top-color: white;
+    border-left-color: white;
+    width: 180px;
+    height: 50px;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: azure;
+    background-color: rgba(0, 255, 157, 0.358);
+    font-weight: 1000;
+    font-family: 'Alegreya Sans SC';
+    transition: transform .2s;
+  }
+  
+  .login:hover{
+    box-shadow: 0 0 80px rgba(8, 236, 8, 0.73);
+    transform:scale(1.1);
+    background-color:  rgba(0, 255, 136, 0.585);
+    cursor: pointer;
+  }
+  
+  .signup:hover{
+    box-shadow: 0 0 80px rgba(8, 236, 8, 0.73);
+    transform:scale(1.1);
+    background-color:  rgba(0, 255, 136, 0.585);
+    cursor: pointer;
+  }
+
+.me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+    margin-top: 40px;
+}
+
+.me img{
+    width: 320px;
+    height: 319px;
+    border-radius: 10px;
+    box-shadow: 0 0 90px rgb(255, 162, 2);
+}
+
+.staff{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    flex-direction: column;
+    
+}
+
+.staff h1{
+    background-color: rgba(141, 239, 22, 0.438);
+    border-radius: 10px;
+    padding: 3px 3px 3px 3px;
+}
+
+.staffinfo img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    box-shadow: 40px 0 70px rgb(171, 255, 2);
+}
+
+.staffinfo{
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+
+.staffinfo2 img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    box-shadow: 40px 0 70px rgb(0, 255, 255);
+}
+
+.staffinfo2{
+    display: flex;
+    gap: 50px;
+    column-gap: 60px;
+    margin-top: 150px;
+}
+
+.content{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+span{
+    margin: 10px 80px 0 80px;
+}
+
+.content h5{
+    font-weight: 700;
+    color: rgb(207, 238, 210);
+}
+
+.best h1{
+    background-color: rgba(22, 239, 73, 0.315);
+    border-radius: 10px;
+    padding: 3px 3px 3px 3px;
+}
+
+.best{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    flex-direction: column;
+    
+}
+
+.employeeinfo{
+    margin: 100px 0 0 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.employeeinfo img{
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+}
+
+.cont{
+    display: flex;
+    flex-direction: row;
+}
+
+.name{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 90px;
+}
+
+.name h5{
+    color: rgb(207, 238, 210);
+    align-self: end;
+    margin-right: 60px;
+    font-weight: 700;
+}

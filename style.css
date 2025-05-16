@@ -1,0 +1,225 @@
+
+  
+.banner{
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(hotel.jpeg);
+}
+ 
+.navbar-brand{
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+ 
+.navbar-nav{
+  margin-left: 400px;
+}
+  
+
+.nav-link{
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+nav li.active{
+   background-color: rgba(18, 43, 124, 0.507);
+   border-radius: 5px;
+}
+  
+  
+.advantages button{
+ 
+  border-radius: 15px;
+  border: 0;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  margin-top: 60px;
+  padding: 0;
+  width: 150px;
+  height: 50px;
+  background:url(bluegradient.jpg);
+  font-size: 20px;
+  font-family: 'Nova Flat';
+  cursor: pointer;
+  transition: transform .3s;
+}
+
+.advantages button:hover{
+  background: rgba(0, 140, 255, 0.711);
+  box-shadow: 0 0 30px rgba(0, 179, 255, 0.793);
+  transform: scale(0.9);
+}
+
+.advantages{
+  display: flex;
+
+}
+
+.box1{
+  border-radius: 30px;
+  margin: 20px 30px 0 10px;
+  width: 340px;
+  height: 260px;
+  text-align: center;
+  font-family: 'Gill Sans';
+  background-color: antiquewhite;
+}
+
+.box2{
+  border-radius: 30px;
+  margin: 20px 30px 0 0;
+  width: 340px;
+  height: 260px;
+  text-align: center;
+  font-family: 'Gill Sans';
+  background-color: antiquewhite;
+}
+.box3{
+  border-radius: 30px;
+  margin: 20px 30px 0 0;
+  width: 340px;
+  height: 260px;
+  text-align: center;  
+  font-family: 'Gill Sans';
+  background-color: antiquewhite;
+}
+.box4{
+  border-radius: 30px;
+  margin: 20px 30px 0 0;
+  width: 340px;
+  height: 260px;
+  text-align: center; 
+  font-family: 'Gill Sans'; 
+  background-color: antiquewhite;
+}
+img{
+  width:340px;
+  height:260px;
+  border-radius: 30px;
+}
+
+.h33{
+  color: rgba(0, 140, 255, 0.945);
+}
+
+.back{
+  background-color: rgba(149, 208, 232, 0.479);
+  height:270px;
+  border-radius: 30px;
+  padding: 40px;
+}
+.content{
+  width: 100%;
+  margin-top: 15%;
+  text-align: center;
+  color: white
+}
+.content h1{
+  font-size: 70px;
+  margin-top: 80px;
+}
+.content p{
+  font-weight: 100;
+  margin: 20px;
+}
+.Amenities {
+  border-radius: 30px;
+  margin-top: 300px;
+  margin-left:5px;
+  margin-right: 5px;
+  display: flex;
+  text-align: left;
+  color:azure;
+  background-image: url(blind.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+.texts{
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+.texts h6{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.texts p{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.texts button{
+  border: 0;
+  font-size: 20px;
+  padding: 10px;
+  font-family: 'Nova Flat';
+  color:rgb(0, 0, 0);
+  transition: transform .4s
+}
+.texts button:hover{
+  background-color: rgba(0, 0, 0, 0.256);
+  color: white;
+  transform:scaleX(1.2);
+}
+
+
+.h33{
+  font-family: 'Advent Pro';
+}
+.bg{
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  backdrop-filter: blur(15px);
+}
+
+footer{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.75)), url(hotel.jpeg);
+  margin-top: 20px;
+}
+
+.signin{
+  border-radius: 40px;
+  width: 110px;
+  height: 50px;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: azure;
+  background-color: rgba(0, 153, 255, 0.358);
+  font-weight: 1000;
+  font-family: 'Alegreya Sans SC';
+  border-top-color: white;
+  border-left-color: white;
+  transition: transform .4s;
+}
+
+.signup{
+  margin-left: 40px;
+  border-radius: 40px;
+  border-top-color: white;
+  border-left-color: white;
+  width: 180px;
+  height: 50px;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: azure;
+  background-color: rgba(0, 153, 255, 0.358);
+  font-weight: 1000;
+  font-family: 'Alegreya Sans SC';
+  transition: transform .4s;
+}
+
+.signin:hover{
+  transform:scale(1.1);
+  background-color:  rgba(0, 153, 255, 0.585);
+  cursor: pointer;
+}
+
+.signup:hover{
+  transform:scale(1.1);
+  background-color:  rgba(0, 153, 255, 0.585);
+  cursor: pointer;
+}
+
+

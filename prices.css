@@ -1,0 +1,154 @@
+body{
+    background-image: url(beige-gradient.jpg);
+    background-repeat: no-repeat;
+}
+
+.navbar-brand{
+    font-weight: 600;
+    font-size: 18px;
+}
+.navbar-nav{
+    margin-left: 250px;
+}
+.nav-link{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: end;
+    
+}
+
+nav li.active{
+    background-color: #6456466e;
+    border-radius: 5px;
+}
+
+.dropdown button{
+    background: none;
+    color: white;
+    paddng: 10px 15px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+    width: 170px;
+    height:60px;
+}
+
+.dropdown button:hover{
+    background-color: #c7ac8b6e;
+}
+
+.dropdown a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 15px;
+    width: 170px;
+    height: 60px;
+    text-align: center;
+    box-shadow: 2px 2px 5px black;
+    transition: transform .2s;
+}
+
+.dropdown .content{
+    display: none;
+    position: absolute;
+    box-shadow: 2px 2px 5px black;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+
+
+.dropdown a:hover{
+    color: white;
+    text-decoration: none;
+    background-color: #a18b706e;
+    transform: scale(1.1);
+}
+
+.dropdown{
+    margin-left: 45%;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.hotels{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    flex-direction: column;
+    
+}
+
+.hotelinfo{
+    margin: 100px 0 0 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.hotelinfo img{
+    
+    width: 500px;
+    height: 300px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 50px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.hotelinfo img:hover{
+    box-shadow: 0 0 50px black;
+}
+
+.cont{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 50px;
+    width: 100%;
+}
+
+.name{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 90px;
+}
+
+.name p{
+    color: rgba(78, 60, 37, 0.878);
+    width: 400px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: luminary(fantasy);
+    transition: transform .2s;
+}
+
+.name p:hover{
+    transform: scale(1.1);
+}
+
+.name h5{
+    color: rgb(207, 238, 210);
+    align-self: end;
+    margin-right: 60px;
+    font-weight: 700;
+}
+
+.hotelinfo a{
+    text-decoration: none;
+    color: white;
+}
+
+.hotelinfo a:hover{
+    text-decoration: none;
+    color: white;
+}
